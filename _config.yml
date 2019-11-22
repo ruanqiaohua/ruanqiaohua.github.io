@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: 知行合一
 description: >- # this means to ignore newlines until "baseurl:"
   为了老年不痴呆而学习；为了"暴富"而学习；为了兴趣爱好而学习；
 baseurl: "" # the subpath of your site, e.g. /blog
