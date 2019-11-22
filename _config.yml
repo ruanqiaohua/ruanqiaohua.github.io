@@ -18,9 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 description: >- # this means to ignore newlines until "baseurl:"
-  为了老年不痴呆而学习；为了致富而学习；为了兴趣爱好而学习；
+  为了老年不痴呆而学习；为了"暴富"而学习；为了兴趣爱好而学习；
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ruanqiaohua
@@ -34,6 +33,10 @@ minima:
     # github:  jekyll
     # rss: rss
     # facebook: jekyll
+
+header_pages:
+- index.markdown
+- about.markdown
 
 # Build settings
 theme: minima
